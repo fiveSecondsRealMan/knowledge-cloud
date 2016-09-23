@@ -4,7 +4,8 @@
   "description": "使用html5、css3、javascript前端技术构建的web app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/fiveSecondsRealMan/knowledge-cloud/issues"
   },
-  "homepage": "https://github.com/fiveSecondsRealMan/knowledge-cloud#readme"
+  "homepage": "https://github.com/fiveSecondsRealMan/knowledge-cloud#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-load-plugins": "^1.3.0"
+  }
 }
